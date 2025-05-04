@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>IMC</title>
+</head>
+
+<body>
+    <main>
+        <div class="container mt-5">
+        <form id="formulario" action="#" method="post">
+            <div class="titulo">
+                <h1>Calculadora IMC</h1>
+            </div>
+            <fieldset>
+                <div>
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome" required autofocus>
+                </div>
+                <div class="row mt-3">
+                <div class="col-md-6">
+                    <label for="peso" class="form-label">Peso</label>
+                    <input type="number" class="form-control" name="peso" id="peso" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="altura" class="form-label">Altura</label>
+                    <input type="number" class="form-control" name="altura" id="altura" required>
+                </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12 d-flex justify-content-between">
+                    <button type="reset" class="btn btn-primary" id="cancelar">Cancelar</button>
+                    <button type="submit" class="btn btn-success" id="calcular">Calcular</button>
+                </div>
+                </div>
+
+                <div class="mt-4">
+                    <div id="resultado" class="alert alert-info" role="alert">
+
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </main>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
