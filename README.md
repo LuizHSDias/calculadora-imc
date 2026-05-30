@@ -57,7 +57,10 @@ IMC = Peso (kg) / Altura² (m)
 
 ## 📷 Demonstração
 
+![alt text](image.png)
 Adicione aqui uma captura de tela ou GIF demonstrando o funcionamento da aplicação.
+
+![alt text](image-1.png)
 
 ## 🎯 Objetivo do Projeto
 
