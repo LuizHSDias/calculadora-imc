@@ -1,0 +1,69 @@
+body {
+    background-color: #f4f6f9;
+    transition: all .3s ease;
+}
+
+.card {
+    max-width: 700px;
+    border: none;
+    border-radius: 20px;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.btn {
+    height: 50px;
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.alert {
+    padding: 25px;
+    border-radius: 15px;
+    line-height: 1.8;
+}
+
+#resultado {
+    margin-top: 30px;
+    transition: .3s;
+}
+
+.list-group-item {
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .table {
+    color: white;
+}
+
+.dark-mode .form-control {
+    background-color: #2a2a2a;
+    color: white;
+    border-color: #444;
+}
+
+.dark-mode .form-control::placeholder {
+    color: #bbb;
+}
+
+.dark-mode .list-group-item {
+    background-color: #2a2a2a;
+    color: white;
+    border-color: #444;
+}
