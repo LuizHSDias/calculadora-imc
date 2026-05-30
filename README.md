@@ -29,7 +29,7 @@ Sistema web desenvolvido para calcular o Índice de Massa Corporal (IMC) de form
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/calculadora-imc.git
+git clone https://github.com/LuizHSDias/calculadora-imc.git
 ```
 
 2. Acesse a pasta do projeto:
@@ -38,7 +38,7 @@ git clone https://github.com/seu-usuario/calculadora-imc.git
 cd calculadora-imc
 ```
 
-3. Abra o arquivo `index.html` em seu navegador.
+3. Abra o arquivo `Index.html` em seu navegador.
 
 ## 📖 Fórmula Utilizada
 
