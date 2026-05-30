@@ -1,3 +1,4 @@
+
 const formulario = document.getElementById('formulario');
 const cancelar = document.getElementById('cancelar');
 const tema = document.getElementById('tema');
@@ -161,3 +162,4 @@ limparHistorico.addEventListener('click', () => {
 });
 
 carregarHistorico();
+
